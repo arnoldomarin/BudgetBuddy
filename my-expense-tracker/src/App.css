@@ -1,0 +1,103 @@
+.app {
+  font-family: "Exo 2", sans-serif;
+}
+
+.themed-container {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #403e48;
+}
+
+.main-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+
+  color: white;
+}
+
+.chart-container {
+  margin: 10px 0px 10px 0px;
+}
+
+.total-container {
+  padding: 10px 10px 10px 10px;
+  font-weight: bolder;
+  font-size: larger;
+  width: 50%;
+  background-color: #4c4b529d;
+}
+
+.inex-titles-container {
+  background-color: #403e48;
+}
+
+.total-expense {
+  display: flex;
+  justify-content: center;
+  background-color: #403e48;
+}
+
+.budget-container {
+  padding: 10px 10px 10px 10px;
+  background-color: #403e48;
+}
+
+.budget-text,
+.budget-amount-text {
+  display: flex;
+  justify-content: center;
+}
+
+.budget-amount-text {
+  color: #f4a261;
+}
+
+.budget-bar {
+  margin: 10px 50px 10px 50px;
+}
+
+.inex-titles-container {
+  display: flex;
+  justify-content: center;
+  background-color: #403e48;
+}
+
+.balance-text,
+.income-text,
+.expense-text {
+  padding: 10px 10px 10px 10px;
+}
+
+.balance-amount-text {
+  display: flex;
+  justify-content: center;
+  color: #62b3c7;
+}
+
+.income-amount-text {
+  color: rgb(31, 172, 106);
+  display: flex;
+  justify-content: center;
+}
+
+.expense-amount-text {
+  color: tomato;
+  display: flex;
+  justify-content: center;
+}
+
+h6 {
+  color: white;
+  text-transform: uppercase;
+}
+
+.total-expense {
+  padding: 10px 0 10px 10px;
+}
+
+.chart-container {
+  margin: 20px 0px 20px 0px;
+}

@@ -1,0 +1,88 @@
+.form {
+  display: inline;
+}
+
+.new-transaction-form {
+  background-color: #aec6cf;
+}
+
+.row {
+  box-shadow: var(--box-shadow);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  width: 800px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.all-container {
+  border-top: 5px solid #ffc65c;
+  border-bottom: 5px solid#FFC65C;
+  width: max-content;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.add-transaction-title {
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px 0px 0px;
+  margin: 10px 10px 10px 10px;
+}
+
+.row > button {
+  width: 100px;
+  height: 50px;
+  align-self: flex-end;
+  transition-duration: 0.4s;
+  background-color: transparent;
+  border: 0px;
+  font-size: 35px;
+  align-content: center;
+  width: 10%;
+  color: white;
+}
+
+.row > button:hover {
+  background-color: transparent;
+  color: #ffc65c;
+}
+
+/* Pulse Grow for Add Transaction button */
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
